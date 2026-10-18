@@ -40,7 +40,7 @@ pipeline {
          when { environment name: 'BUILDME', value: 'yes' }
          steps {
             echo 'Hi...changes detected now building'
-            'mvn clean package'
+            sh 'mvn clean package'
               
                     }
 
