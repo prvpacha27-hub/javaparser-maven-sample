@@ -23,7 +23,7 @@ pipeline {
                 checkout scm
             }
         }
-/*        stage('Pre check') {
+        stage('Pre check') {
           when {
             changeset "src/main/**"
         }
@@ -33,9 +33,9 @@ pipeline {
             echo "Changes detected in src/main"
         }
     }
-}*/
+}
        stage('Build') {
-        // when { environment name: 'BUILDME', value: 'yes' }
+         when { environment name: 'BUILDME', value: 'yes' }
          steps {
             echo 'Hi...changes detected now building'
             sh 'mvn clean package'
