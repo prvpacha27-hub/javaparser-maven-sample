@@ -24,7 +24,7 @@ pipeline {
          steps {
             echo 'Hi...testing'
 			sh 'mvn --version' 
-            //sh 'mvn clean package'
+            sh 'mvn clean package'
               
                     }
     }
