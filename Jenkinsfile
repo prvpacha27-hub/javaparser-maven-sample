@@ -39,6 +39,7 @@ pipeline {
          steps {
             echo 'Hi...changes detected now building'
             sh 'mvn clean package'
+            //mvn
               
                     }
     }
