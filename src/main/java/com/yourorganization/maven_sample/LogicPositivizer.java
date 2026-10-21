@@ -63,4 +63,4 @@ public class LogicPositivizer {
                         .resolve(Paths.get("output")));
     }
 }
-//added klo bloppp hill added dd bnn ghj bn bnm hjlllllll
+//added klo bloppp hill added dd bnn ghj bn bnm hjlllllll test
